@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(96, 82, 110);
+}
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding:15px;
+    font-family: sans-serif
+    ;
+}
+
+.contador-contenedor{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    padding:2px;
+}
+
+.logo{
+    width: 20%;
+}
